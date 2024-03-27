@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductsModule } from './products/products.module';
 import { SignalsModule } from './signals/signals.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { SignalsModule } from './signals/signals.module';
     AppRoutingModule,
     ProductsModule,
     // SignalsModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
